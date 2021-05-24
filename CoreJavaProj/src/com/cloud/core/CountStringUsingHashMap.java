@@ -7,6 +7,7 @@ import java.util.Map.Entry;
 
 public class CountStringUsingHashMap {
 public static void main(String[] args) {
+	System.out.println("CountStringUsingHashMap.main()");
 	Map<String,String> map=new HashMap<>();
 	map.put("name", "Akshay");map.put("addr", "hyd");map.put("crs", "Akshay");
 	Iterator itr= map.entrySet().iterator();
