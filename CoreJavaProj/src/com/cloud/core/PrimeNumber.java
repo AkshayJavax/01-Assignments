@@ -7,6 +7,7 @@ public static void main(String[] args) {
 	int temp, num;
     boolean isPrime = true;
     Scanner in = new Scanner(System.in);
+    System.out.println("enter number for check prime or not");
     num = in.nextInt();
     in.close();
     for (int i = 2; i<= num/2; i++) {
@@ -17,8 +18,8 @@ public static void main(String[] args) {
         }
     }
     if(isPrime) 
-        System.out.println(num + "number is prime");
+        System.out.println(num + " number is prime");
         else
-            System.out.println(num + "number is not a prime");
+            System.out.println(num + " number is not a prime");
 }
 }
